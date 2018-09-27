@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_manual"
+            android:layout_width="190dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Add manually" />
+
+        <Button
+            android:id="@+id/button_manual_hash"
+            android:layout_width="190dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Add hashmap manually" />
+
+        <Button
+            android:id="@+id/button_hash_two"
+            android:layout_width="190dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Single Hashmap 2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/write_player_button"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Write Player" />
+
+        <Button
+            android:id="@+id/write_list_button"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Write list" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_wipe"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Wipe Database" />
+
+        <Button
+            android:id="@+id/button_restore"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Restore Database" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="132dp"
+            android:layout_height="64dp"
+            android:padding="4dp"
+            android:text="Delete Player" />
+    </LinearLayout>
+
+</LinearLayout>

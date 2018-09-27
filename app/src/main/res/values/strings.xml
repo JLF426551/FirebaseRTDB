@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Firebase RTDB</string>
+    <string name="write_activity">WRITE ACTIVITY</string>
+    <string name="read_activity">READ ACTIVITY</string>
+</resources>
